@@ -21,6 +21,7 @@ This project is a Flutter application designed to detect and classify pests in i
 - [Pests Classes](#pests-classes)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [Project Setup](#project-setup)
   - [Executing program](#executing-program)
 - [Technologies Used](#technologies-used)
 - [Future Enhancements](#future-enhancements)
@@ -54,6 +55,35 @@ The system is designed to identify and classify the following pest classes:
 ### Prerequisites
 
 Ensure that you have Flutter SDK and Node.js installed before running the project. Also, make sure you have connected an Android or iOS device or have a simulator/emulator set up to run the Flutter app.
+
+### Project Setup
+After downloading or cloning this project, follow these steps to configure the host address:
+
+#### Backend Configuration
+1. Navigate to the backend directory.
+1. Open the `server.js` file.
+1. Locate the following line of code:
+   
+   ```js
+   const host = "10.8.33.0";   // Replace it with your IP Address
+   ```
+1. Replace this host address with your IP Address.
+
+#### Frontend Configuration
+1. Navigate to the flutter-app directory then pest_detection/lib/.
+1. Open the `home_screen.dart` file.
+1. Locate the following line of code:
+   
+   ```dart
+    final request = http.MultipartRequest(
+        'POST',
+        Uri.parse('http://10.8.33.0:3000/upload'),   // // Replace it with your IP Address
+      );
+   ```
+1. Replace this address with your IP Address.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ### Executing program

@@ -46,7 +46,6 @@ The system is designed to identify and classify the following pest classes:
 
 Ensure that you have Flutter SDK and Node.js installed before running the project. Also, make sure you have connected an Android or iOS device or have a simulator/emulator set up to run the Flutter app.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Executing program
 

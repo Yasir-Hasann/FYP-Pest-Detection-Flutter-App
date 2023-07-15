@@ -69,15 +69,13 @@ To run both the Flutter app and the server using Visual Studio Code (VS Code), y
 1. In the VS Code window/tab with the Flutter app folder, open a terminal within VS Code by going to View -> Terminal or using the keyboard shortcut Ctrl+ backtick.
 
 1. Run the following command to install the required dependencies:
-
    ```shell
-    flutter pub get
+   flutter pub get
    ```
 1. Once the dependencies are installed, you can launch the app on an Android or iOS device/emulator by running the following command:
-
    ```shell
-    flutter run
-    ```
+   flutter run
+   ```
 
 1. This command will build the Flutter app and launch it on a connected device or emulator.
 
@@ -86,14 +84,12 @@ To run both the Flutter app and the server using Visual Studio Code (VS Code), y
 1. In the VS Code window/tab with the backend server folder, open a terminal within VS Code by going to View -> Terminal or using the keyboard shortcut Ctrl+ backtick.
    
 1. Run the following command to install the required packages:
-
    ```shell
-    npm install
+   npm install
    ```
 1. Once the installation is complete, start the server by running the following command:
-
    ```shell
-    npm start
+   npm start
    ```
 1. The server should now be running and ready to receive requests from the Flutter app.
 

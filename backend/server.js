@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const port = 3000;
-const host = "0.0.0.0";   // Replace it with your IP Address
+const host = "10.8.33.0";   // Replace it with your IP Address
 const upload = multer({ dest: 'uploads/' });
 
 

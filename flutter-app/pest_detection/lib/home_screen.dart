@@ -108,7 +108,7 @@ class HomeScreenState extends State {
 
       final request = http.MultipartRequest(
         'POST',
-        Uri.parse('http://0.0.0.0:3000/upload'),   // // Replace it with your IP Address
+        Uri.parse('http://10.8.33.0:3000/upload'),   // // Replace it with your IP Address
       );
       request.files.add(await http.MultipartFile.fromPath('image', file.path,
           filename: pickedFile.name));

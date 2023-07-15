@@ -1,8 +1,9 @@
+<a name="readme-top"></a>
+
 # Pest Detection, Classification and Pesticides Recommendation System
 
 This project is a Flutter application designed to detect and classify pests in images uploaded or captured by users using their smartphones. The system utilizes the YOLOv5 model for accurate and real-time pest detection and classification. It also incorporates a recommendation system to suggest appropriate pesticides based on the identified pests.
 
-<a name="readme-top"></a>
 <details>
 <summary><strong>Table of Contents</strong></summary>
 
@@ -45,6 +46,8 @@ The system is designed to identify and classify the following pest classes:
 
 Ensure that you have Flutter SDK and Node.js installed before running the project. Also, make sure you have connected an Android or iOS device or have a simulator/emulator set up to run the Flutter app.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Executing program
 
 To run both the Flutter app and the server using Visual Studio Code (VS Code), you can follow these steps:
@@ -85,6 +88,8 @@ To run both the Flutter app and the server using Visual Studio Code (VS Code), y
    d. The server should now be running and ready to receive requests from the Flutter app.
 
 By following these steps, you can simultaneously run the Flutter app and the backend server in VS Code. This allows you to test the app and interact with the server while having them both easily accessible within the same development environment.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
    
 
 ## Technologies Used
@@ -93,6 +98,8 @@ By following these steps, you can simultaneously run the Flutter app and the bac
 + YOLOv5: A state-of-the-art object detection model used for pest detection and classification.
 + ROBOFLOW: A platform for training, deploying, and managing computer vision models.
 + Node.js: A JavaScript runtime used for creating a local server and API to handle image processing and communication with ROBOFLOW.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Deployment
 
@@ -103,6 +110,8 @@ To deploy the application locally, follow these steps:
 1. Install the required dependencies specified in the project.
 1. Run the Flutter application on an Android or iOS device/emulator.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Future Enhancements
 
 Here are some potential areas for future enhancements:
@@ -111,3 +120,5 @@ Here are some potential areas for future enhancements:
 + Integration of a database to store user data and historical pest detection records.
 + Implementation of real-time pest monitoring using the smartphone's camera feed.
 + Enhancement of the recommendation system with more sophisticated algorithms based on pest characteristics and pesticide effectiveness.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

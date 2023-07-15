@@ -1,5 +1,15 @@
 <a name="readme-top"></a>
 
+<div align="justify">
+<p align="center">
+<img src="https://github.com/Yasir-Rana/FYP-Pest-Detection-Flutter-App/assets/99634661/40a8bc3e-669c-4a73-bf52-9a9f18743824" alt="Login User" width="200" />
+
+<img src="https://github.com/Yasir-Rana/FYP-Pest-Detection-Flutter-App/assets/99634661/71408f39-ab0a-4e13-8c14-932d9fd0003b" alt="Pest Detection" width="200" height="387" />
+
+<img src="https://github.com/Yasir-Rana/FYP-Pest-Detection-Flutter-App/assets/99634661/861d0b14-43d5-4280-9a1f-4be99cd60933" alt="No Pest" width="200" height="387" />
+</p>
+
+
 # Pest Detection, Classification and Pesticides Recommendation System
 
 This project is a Flutter application designed to detect and classify pests in images uploaded or captured by users using their smartphones. The system utilizes the YOLOv5 model for accurate and real-time pest detection and classification. It also incorporates a recommendation system to suggest appropriate pesticides based on the identified pests.
@@ -13,7 +23,6 @@ This project is a Flutter application designed to detect and classify pests in i
   - [Prerequisites](#prerequisites)
   - [Executing program](#executing-program)
 - [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
 - [Future Enhancements](#future-enhancements)
 
 </details>
@@ -100,16 +109,6 @@ By following these steps, you can simultaneously run the Flutter app and the bac
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Deployment
-
-To deploy the application locally, follow these steps:
-
-1. Clone the repository from GitHub.
-1. Set up the Flutter development environment.
-1. Install the required dependencies specified in the project.
-1. Run the Flutter application on an Android or iOS device/emulator.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Future Enhancements
 
@@ -121,3 +120,5 @@ Here are some potential areas for future enhancements:
 + Enhancement of the recommendation system with more sophisticated algorithms based on pest characteristics and pesticide effectiveness.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+</div>

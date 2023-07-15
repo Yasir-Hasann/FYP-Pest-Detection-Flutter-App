@@ -1,4 +1,4 @@
-# Pest Detection, Classification, and Pesticides Recommendation System
+# Pest Detection, Classification and Pesticides Recommendation System
 
 This project is a Flutter application designed to detect and classify pests in images uploaded or captured by users using their smartphones. The system utilizes the YOLOv5 model for accurate and real-time pest detection and classification. It also incorporates a recommendation system to suggest appropriate pesticides based on the identified pests.
 

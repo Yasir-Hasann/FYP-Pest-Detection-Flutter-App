@@ -2,6 +2,7 @@
 
 This project is a Flutter application designed to detect and classify pests in images uploaded or captured by users using their smartphones. The system utilizes the YOLOv5 model for accurate and real-time pest detection and classification. It also incorporates a recommendation system to suggest appropriate pesticides based on the identified pests.
 
+<a name="readme-top"></a>
 <details>
 <summary><strong>Table of Contents</strong></summary>
 
@@ -23,6 +24,8 @@ This project is a Flutter application designed to detect and classify pests in i
 + Pesticides Recommendation: Based on the identified pests, the system generates recommendations for suitable pesticides that can be used to address the pest issue.
 + Flutter App Integration: The response from the server, containing the detected pests and recommended pesticides, is sent back to the Flutter app for display to the user.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Pests Classes
 
 The system is designed to identify and classify the following pest classes:
@@ -33,6 +36,8 @@ The system is designed to identify and classify the following pest classes:
 1. Green Leaf-hopper
 1. Beetle
 1. Armyworm
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 
